@@ -16,8 +16,8 @@
     <% @cita.each do |citum| %>
       <tr>
         <td><%= citum.fecha %></td>
-        <td><%= citum.doctor_id %></td>
-        <td><%= citum.paciente_id %></td>
+        <td><%= citum.doctor.name %></td>
+        <td><%= citum.paciente.name %></td>
         <td><%= link_to 'Show', citum %></td>
         <td><%= link_to 'Edit', edit_citum_path(citum) %></td>
         <td><%= link_to 'Destroy', citum, method: :delete, data: { confirm: 'Are you sure?' } %></td>
