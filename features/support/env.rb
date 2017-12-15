@@ -1,4 +1,4 @@
-require_relative('../CitasMedicas')
+require_relative('CitasMedicas')
 require('Capybara')
 require('Capybara/cucumber')
 require('rspec')
