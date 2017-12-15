@@ -13,3 +13,7 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+//= require bootstrap.min
+//= require jquery.min
+//= require bootstrap.bundle.min
+//= require dataTable.bootstrap
