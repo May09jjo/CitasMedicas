@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   resources :doctors
+  
   get 'contacto/index'
 
   get 'acercade/index'
